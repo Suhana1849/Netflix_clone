@@ -1,0 +1,308 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+}
+nav {
+  max-width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  position: relative;
+  z-index: 10;
+  height: 100px;
+}
+nav img {
+  color: rgb(226, 35, 35);
+  width: 130px;
+}
+nav .button {
+  gap: 15px;
+  display: flex;
+}
+.main {
+  background-image: url("assets/images/bg.jpg");
+  background-size: max(1200px, 100vw);
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 644px;
+  position: relative;
+}
+.main .box {
+  background-color: black;
+  opacity: 0.69;
+  height: 644px;
+  width: 100%;
+  top: 0;
+  position: absolute;
+}
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  text-align: center;
+  gap: 20px;
+  height: 444px;
+  padding: 0 10px 30px;
+  /* margin-top: 2px; */
+}
+.heading> :nth-child(1) {
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 900;
+  font-size: 36px;
+}
+.heading> :nth-child(2) {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  /* padding-bottom: 26px; */
+}
+.heading> :nth-child(3) {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 0px 48px;
+}
+.heading_button {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+}
+.btn {
+  border-radius: 2px;
+  padding: 8px 24px;
+  border-style: none;
+  cursor: pointer;
+}
+.btn-red-sm {
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+.lang {
+  background-color: rgba(113, 88, 88, 0.2);
+  border-radius: 2px;
+  border: 1px solid rgba(255, 248, 248, 0.5);
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+}
+.btn-red {
+  background-color: red;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+.heading_button .input {
+  border-radius: 2px;
+  padding: 8px 10px 8px 10px;
+  border-style: none;
+  height: 24px;
+  width: 250px;
+  background-color: rgba(113, 88, 88, 0.2);
+  border: 1px solid rgba(255, 248, 248, 0.5);
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+}
+.seperation {
+  height: 7px;
+  background-color: rgb(43, 41, 41);
+}
+.first {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+  max-width: 80vw;
+  padding: 50px 0px;
+  text-align: center;
+}
+
+.text {
+  color: white;
+  text-align: left;
+}
+.text1 {
+  font-size: 48px;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+.text2 {
+  font-size: 24px;
+  font-family: sans-serif;
+  padding-top: 20px;
+}
+.secImg {
+  position: relative;
+}
+.secImg img {
+  position: relative;
+  z-index: 3px;
+  width: 720px;
+  overflow: hidden;
+}
+.secImg video {
+  position: absolute;
+  top: 114px;
+  right: 0;
+  width: 619px;
+  z-index: -1;
+}
+h2 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+  font-family: sans-serif;
+  font-weight: 900;
+  padding-top: 70px;
+  width: 70vw;
+  margin: auto;
+  padding-bottom: 15px;
+  text-align: center;
+}
+.ques {
+  width: 80vw;
+  background-color: rgb(52, 52, 52);
+  margin: auto;
+  font-size: 24px;
+  color: white;
+  padding: 25px;
+  font-family: sans-serif;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  /* transition: all 1s ease-out; */
+}
+.ques:hover {
+  background-color: rgb(75, 75, 75);
+}
+.Questions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+h4 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  font-weight: 500;
+  padding: 50px 15px 15px 15px;
+  font-family: sans-serif;
+  font-size: 22px;
+  text-align: center;
+}
+.last {
+  padding-bottom: 70px;
+}
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  max-width: 80vw;
+  margin: auto;
+  gap: 12px;
+  padding-bottom: 30px;
+}
+
+.lang2 {
+  max-width: 80vw;
+  margin: auto;
+}
+.item a {
+  color: white;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 200;
+}
+.item1 {
+  color: white;
+  display: flex;
+  max-width: 80vw;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.item1 a {
+  color: white;
+  display: flex;
+}
+
+.company {
+  color: white;
+  padding: 20px 0px;
+  padding-bottom: 50px;
+}
+
+@media screen and (max-width: 1300px) {
+  .first {
+    flex-wrap: wrap;
+
+  }
+  .first .text {
+    text-align: center;
+  }
+  .text1 {
+    font-size: 32px;
+  }
+  .text2 {
+    font-size: 18px;
+  }
+  .secImg img {
+    width: 320px;
+    padding: 20px;
+  }
+  .secImg video {
+    width: 242px;
+    top: 30px;
+    padding: 40px;
+  }
+  .footer {
+    grid-template-columns: 1fr 1fr;
+  }
+  .heading_button {
+    flex-direction: column;
+    padding: 20px;
+  }
+  h4 {
+    max-width: 85vw;
+    margin: auto;
+  }
+  .btn-red {
+    margin-top: 10px;
+  }
+  
+  .heading> :nth-child(1) {
+    font-size: 32px;
+  }
+  .heading> :nth-child(2) {
+    font-size: 18px;
+  }
+  .heading> :nth-child(3) {
+    font-size: 18px;
+  }
+  
+}
+@media  screen and (max-width:500px) {
+  nav{
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .heading_button .input {
+    width: 217px;
+  }
+}
